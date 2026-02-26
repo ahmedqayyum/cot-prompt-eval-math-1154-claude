@@ -1,0 +1,119 @@
+[
+  {
+    "id": "2203.11171",
+    "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+    "authors": [
+      "Xuezhi Wang",
+      "Jason Wei",
+      "Dale Schuurmans",
+      "Quoc Le",
+      "Ed Chi"
+    ],
+    "year": "2022",
+    "abstract": "Chain-of-thought prompting combined with pre-trained large language models has achieved encouraging results on complex reasoning tasks. In this paper, we propose a new decoding strategy, self-consistency, to replace the naive greedy decoding used in chain-of-thought prompting. It first samples a diverse set of reasoning paths instead of only taking the greedy one, and then selects the most consistent answer by marginalizing out the sampled reasoning paths. Self-consistency leverages the intuitio"
+  },
+  {
+    "id": "2110.14168",
+    "title": "Training Verifiers to Solve Math Word Problems",
+    "authors": [
+      "Karl Cobbe",
+      "Vineet Kosaraju",
+      "Mohammad Bavarian",
+      "Mark Chen",
+      "Heewoo Jun"
+    ],
+    "year": "2021",
+    "abstract": "State-of-the-art language models can match human performance on many tasks, but they still struggle to robustly perform multi-step mathematical reasoning. To diagnose the failures of current models and support research, we introduce GSM8K, a dataset of 8.5K high quality linguistically diverse grade school math word problems. We find that even the largest transformer models fail to achieve high test performance, despite the conceptual simplicity of this problem distribution. To increase performan"
+  },
+  {
+    "id": "2103.03874",
+    "title": "Measuring Mathematical Problem Solving With the MATH Dataset",
+    "authors": [
+      "Dan Hendrycks",
+      "Collin Burns",
+      "Saurav Kadavath",
+      "Akul Arora",
+      "Steven Basart"
+    ],
+    "year": "2021",
+    "abstract": "Many intellectual endeavors require mathematical problem solving, but this skill remains beyond the capabilities of computers. To measure this ability in machine learning models, we introduce MATH, a new dataset of 12,500 challenging competition mathematics problems. Each problem in MATH has a full step-by-step solution which can be used to teach models to generate answer derivations and explanations. To facilitate future research and increase accuracy on MATH, we also contribute a large auxilia"
+  },
+  {
+    "id": "2305.10601",
+    "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+    "authors": [
+      "Shunyu Yao",
+      "Dian Yu",
+      "Jeffrey Zhao",
+      "Izhak Shafran",
+      "Thomas L. Griffiths"
+    ],
+    "year": "2023",
+    "abstract": "Language models are increasingly being deployed for general problem solving across a wide range of tasks, but are still confined to token-level, left-to-right decision-making processes during inference. This means they can fall short in tasks that require exploration, strategic lookahead, or where initial decisions play a pivotal role. To surmount these challenges, we introduce a new framework for language model inference, Tree of Thoughts (ToT), which generalizes over the popular Chain of Thoug"
+  },
+  {
+    "id": "2309.03409",
+    "title": "Large Language Models as Optimizers",
+    "authors": [
+      "Chengrun Yang",
+      "Xuezhi Wang",
+      "Yifeng Lu",
+      "Hanxiao Liu",
+      "Quoc V. Le"
+    ],
+    "year": "2023",
+    "abstract": "Optimization is ubiquitous. While derivative-based algorithms have been powerful tools for various problems, the absence of gradient imposes challenges on many real-world applications. In this work, we propose Optimization by PROmpting (OPRO), a simple and effective approach to leverage large language models (LLMs) as optimizers, where the optimization task is described in natural language. In each optimization step, the LLM generates new solutions from the prompt that contains previously genera"
+  },
+  {
+    "id": "2310.01798",
+    "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+    "authors": [
+      "Jie Huang",
+      "Xinyun Chen",
+      "Swaroop Mishra",
+      "Huaixiu Steven Zheng",
+      "Adams Wei Yu"
+    ],
+    "year": "2023",
+    "abstract": "Large Language Models (LLMs) have emerged as a groundbreaking technology with their unparalleled text generation capabilities across various applications. Nevertheless, concerns persist regarding the accuracy and appropriateness of their generated content. A contemporary methodology, self-correction, has been proposed as a remedy to these issues. Building upon this premise, this paper critically examines the role and efficacy of self-correction within LLMs, shedding light on its true potential a"
+  },
+  {
+    "id": "2211.01910",
+    "title": "Large Language Models Are Human-Level Prompt Engineers",
+    "authors": [
+      "Yongchao Zhou",
+      "Andrei Ioan Muresanu",
+      "Ziwen Han",
+      "Keiran Paster",
+      "Silviu Pitis"
+    ],
+    "year": "2022",
+    "abstract": "By conditioning on natural language instructions, large language models (LLMs) have displayed impressive capabilities as general-purpose computers. However, task performance depends significantly on the quality of the prompt used to steer the model, and most effective prompts have been handcrafted by humans. Inspired by classical program synthesis and the human approach to prompt engineering, we propose Automatic Prompt Engineer (APE) for automatic instruction generation and selection. In our me"
+  },
+  {
+    "id": "2303.09014",
+    "title": "ART: Automatic multi-step reasoning and tool-use for large language models",
+    "authors": [
+      "Bhargavi Paranjape",
+      "Scott Lundberg",
+      "Sameer Singh",
+      "Hannaneh Hajishirzi",
+      "Luke Zettlemoyer"
+    ],
+    "year": "2023",
+    "abstract": "Large language models (LLMs) can perform complex reasoning in few- and zero-shot settings by generating intermediate chain of thought (CoT) reasoning steps. Further, each reasoning step can rely on external tools to support computation beyond the core LLM capabilities (e.g. search/running code). Prior work on CoT prompting and tool use typically requires hand-crafting task-specific demonstrations and carefully scripted interleaving of model generations with tool use. We introduce Automatic Reaso"
+  },
+  {
+    "id": "2307.13702",
+    "title": "Measuring Faithfulness in Chain-of-Thought Reasoning",
+    "authors": [
+      "Tamera Lanham",
+      "Anna Chen",
+      "Ansh Radhakrishnan",
+      "Benoit Steiner",
+      "Carson Denison"
+    ],
+    "year": "2023",
+    "abstract": "Large language models (LLMs) perform better when they produce step-by-step, \"Chain-of-Thought\" (CoT) reasoning before answering a question, but it is unclear if the stated reasoning is a faithful explanation of the model's actual reasoning (i.e., its process for answering the question). We investigate hypotheses for how CoT reasoning may be unfaithful, by examining how the model predictions change when we intervene on the CoT (e.g., by adding mistakes or paraphrasing it). Models show large varia"
+  }
+]
